@@ -1,0 +1,10 @@
+valor = int(input())
+msg = "nota(s) de R$"
+print(valor)
+print(f"{valor // 100} {msg} 100,00")
+print(f"{valor % 100 // 50} {msg} 50,00")
+print(f"{valor % 100 % 50 // 20} {msg} 20,00")
+print(f"{valor % 100 % 50 % 20  // 10} {msg} 10,00")
+print(f"{valor % 100 % 50 % 20  % 10 // 5} {msg} 5,00")
+print(f"{valor % 100 % 50 % 20  % 10 % 5 // 2} {msg} 2,00")
+print(f"{valor % 100 % 50 % 20  % 10 % 5 % 2} {msg} 1,00")
